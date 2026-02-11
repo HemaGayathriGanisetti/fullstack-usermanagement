@@ -198,12 +198,16 @@ Before running this project, make sure you have the following installed:
 | CORS Error             | Backend not allowing frontend | Add `@CrossOrigin(origins = "http://localhost:3000")` in controllers |
 | 404 / API not found    | Wrong endpoint                | Check `/auth` or `/users` endpoints                                  |
 
+![image alt](https://github.com/HemaGayathriGanisetti/fullstack-usermanagement/blob/1a95f8c0fe198233cea1bc4b7d3f92fb7e86f659/Screenshot%202026-02-11%20211437.png)
+![image alt]()
+
 ## 👩‍💻 Author
 
 **Hema Gayathri Ganisetti**
 
 
  
+
 
 
 
