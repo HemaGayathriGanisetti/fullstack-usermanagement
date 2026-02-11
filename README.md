@@ -111,20 +111,20 @@ frontend/
 │ └── index.js
 
 ## 🔧 Backend Configuration (application.properties)
-# Spring Boot Application Name
+**Spring Boot Application Name**
 spring.application.name=fullstackmanagement
-# MySQL Database Configuration
+**MySQL Database Configuration**
 spring.datasource.url=jdbc:mysql://localhost:3306/fullstack_db
 spring.datasource.username=YOUR_DB_USERNAME
 spring.datasource.password=YOUR_DB_PASSWORD
 **⚡ Important:** Replace `YOUR_DB_PASSWORD` with your actual password
-# JPA / Hibernate Settings
+JPA / Hibernate Settings
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-# Server Port
+**Server Port**
 server.port=5000
-# JWT Configuration
+**JWT Configuration**
 jwt.secret=YOUR_JWT_SECRET_KEY
 jwt.expiration=36000000
 
@@ -144,7 +144,7 @@ jwt.expiration=36000000
 
 🔑 Make sure the backend is running before using the frontend. JWT tokens are stored in localStorage for protected routes.
 
-🔑 **API Endpoints**
+## 🔑 API Endpoints
 🔓**Public**
 | Method | Endpoint         | Description                     |
 | :----: | :--------------- | :------------------------------ |
@@ -190,7 +190,7 @@ Before running this project, make sure you have the following installed:
 
  ⚡ **Tip:** Make sure MySQL is running and the database credentials in `application.properties` are correct before starting the backend.
  
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 
 | Problem                | Cause                         | Solution                                                             |
 | ---------------------- | ----------------------------- | -------------------------------------------------------------------- |
@@ -204,6 +204,7 @@ Before running this project, make sure you have the following installed:
 
 
  
+
 
 
 
