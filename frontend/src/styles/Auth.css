@@ -1,0 +1,152 @@
+ .auth-container {
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 50px auto;
+  background: #f2f0ff; /* classic cream/off-white */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family:  'Poppins', sans-serif;
+  color: #333;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d3b66;
+   font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-icon {
+  color: #0d3b66;  
+}
+.auth-container input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #c8a2c8;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.auth-container input:focus {
+  border-color: #0d3b66; 
+  outline: none;
+  box-shadow: 0 0 5px rgba(139, 94, 60, 0.3);
+}
+
+
+.auth-container button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0d3b66;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.auth-container button:hover {
+  background-color: #1a5276; 
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #c8a2c8; 
+  font-size: 14px;
+}
+
+.eye-icon {
+     position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #0d3b66; 
+  font-size: 16px;
+}
+
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+ 
+ 
+
+.register-link:hover {
+  color: #6f4a2c;
+}
+.register-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.register-link {
+  color: #1a5276; 
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.register-link:hover {
+  color: #ff9068; 
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px 35px 10px 12px; 
+  border-radius: 5px;
+  border: 1px solid #c8a2c8; 
+  font-size: 14px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #0d3b66; 
+  font-size: 16px;
+}
+
